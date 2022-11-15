@@ -1,7 +1,7 @@
 public class Produits {
     private int id;
     private String name;
-    private float price,
+    private float price;
 
     public Produits (int id, String name, float price) {
         this.id = id;
