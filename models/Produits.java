@@ -3,6 +3,10 @@ public class Produits {
     private String name;
     private float price;
 
+    public Produits() {
+        
+    }
+
     public Produits (int id, String name, float price) {
         this.id = id;
         this.name = name;
