@@ -34,7 +34,7 @@ n2=n3;
         return name;
     }
     public int simpleFunction(){
-        int n1=0,n2=1,n3,i,count=10;
+        int n1=0,n2=1,n3,i,count=5;
 System.out.print(n1+" "+n2);//printing 0 and 1    
 for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
 {
@@ -43,6 +43,8 @@ System.out.print(" "+n3);
 n1=n2;
 n2=n3;
 }
+
+
         return 0;
     } 
     public float getPrice() {
