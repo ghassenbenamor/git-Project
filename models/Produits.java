@@ -1,13 +1,13 @@
 public class Produits {
     private int id;
-    private String name;
-    private float price,
-
-    public Produits (int id, String name, float price) {
+    public Produits(int id, String name, float price) { 
         this.id = id;
         this.name = name;
         this.price = price;
     }
+    private String name;
+    private float price;
+
     //getters & setters
     public int getId() {
         return id;
@@ -27,4 +27,11 @@ public class Produits {
     public void setPrice(float price) {
         this.price = price;
     }
+    /**
+     * 
+     */
+    public Produits() {
+        System.out.println(this.id + this.name + this.price); // Conflict by faresbouzayen
+    }
+    
 }
