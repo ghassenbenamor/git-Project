@@ -2,7 +2,7 @@ public class Produits {
     private int id;
     private String name;
     private float price;
-
+   
     public Produits() {
         
     }
@@ -11,6 +11,9 @@ public class Produits {
         this.name = name;
         this.price = price;
     }
+    private String name;
+    private float price;
+
     //getters & setters
     public int getId() {
         return id;
@@ -30,6 +33,20 @@ n2=n3;
     public String getName() {
         return name;
     }
+    public int simpleFunction(){
+        int n1=0,n2=1,n3,i,count=5;
+System.out.print(n1+" "+n2);//printing 0 and 1    
+for(i=2;i<count;++i)//loop starts from 2 because 0 and 1 are already printed    
+{
+n3=n1+n2;
+System.out.print(" "+n3);
+n1=n2;
+n2=n3;
+}
+
+
+        return 0;
+    } 
     public float getPrice() {
         return price;
     }
@@ -42,4 +59,11 @@ n2=n3;
     public void setPrice(float price) {
         this.price = price;
     }
+    /**
+     * 
+     */
+    public Produits() {
+        System.out.println(this.id + this.name + this.price); // Conflict by faresbouzayen
+    }
+    
 }
