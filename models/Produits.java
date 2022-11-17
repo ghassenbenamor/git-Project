@@ -2,7 +2,7 @@ public class Produits {
     private int id;
     private String name;
     private float price;
-
+   
     public Produits() {
         
     }
